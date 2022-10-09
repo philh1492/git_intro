@@ -2,7 +2,7 @@
 
 Following steps from The Odin Project to clone git repository.
 
----October 10th, 2022---
+---October 8th, 2022---
 
 In the Terminal, create a directory/folder. Use "repos" to make it simple. ( mkdir repos; cd repos;) make directory "repos"; change to directory "repos".
 
