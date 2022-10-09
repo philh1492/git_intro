@@ -1,0 +1,25 @@
+**** Getting Started with git & Github*****
+
+Following steps from The Odin Project to clone git repository.
+
+---October 10th, 2022---
+
+In the Terminal, create a directory/folder. Use "repos" to make it simple. ( mkdir repos; cd repos;) make directory "repos"; change to directory "repos".
+
+To clone your repository from github; create repository, then in its settings select clone, ensure it is the SSH option. Copy address in the box.
+In the Terminal, enter "git clone <SSH Address>".
+To ensure it worked, change directory to your repository (cd <repo>). 
+Check remote status with "git remote -v". Should show fetch/push origins.
+
+Create file/folder in  repository folder.
+
+Check "git status". Will mention untracked files (files that have not been added to commit).
+
+To add items to commit:
+    
+    git add <filepath/file>
+    ** check status in between
+    
+    git commit -m "<Add message>"
+
+Congrats. It's a first step into a terrain you're not entirely familiar with yet. Keep at it and it will become your playground.
